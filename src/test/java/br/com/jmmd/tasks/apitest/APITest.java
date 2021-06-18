@@ -30,7 +30,7 @@ public class APITest {
 		   //PASSANDO OBJ JSON VIA BODY
 		   .body("	{\r\n" + 
 		   		"		\"task\":\"Test via api\",\r\n" + 
-		   		"		\"dueDate\":\"2021-06-17\"\r\n" + 
+		   		"		\"dueDate\":\"2021-12-17\"\r\n" + 
 		   		"	}")
 		   //contentType USADO PARA DAR SUPORTE JSON PARA O TEST DA API
 		   .contentType(ContentType.JSON)
